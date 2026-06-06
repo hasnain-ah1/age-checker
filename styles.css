@@ -1,0 +1,63 @@
+body {
+    background-color: #2F3A4A;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container feel */
+.container {
+    background-color: #1F2A36;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: 300px;
+}
+
+/* Label */
+#myLabel {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Input */
+#myText {
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+/* Button */
+#mySubmit {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3B82F6;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#mySubmit:hover {
+    background-color: #2563EB;
+    transform: scale(1.05);
+}
+
+/* Result */
+#resultElement {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
